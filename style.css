@@ -244,5 +244,10 @@ article,
 .e3{
 	width:85%;
 	margin:0 auto;
+	min-width:480px;
 }
+.containter{
+	justify-content: center;
+}
+
 }
