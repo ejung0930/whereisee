@@ -170,7 +170,7 @@ h2{
 	color:skyblue;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:900px){
 	section{
 	border:2px solid lightskyblue;
 	background-color:white;
@@ -233,6 +233,10 @@ article{
 	margin-right: 20px;
 	margin-left: 20px;
 	justify-content: center;
+}
+.container{
+	width:90%;
+	margin: 0 auto;
 }
 
 }
