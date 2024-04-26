@@ -275,7 +275,7 @@ li{
 
 .a1{
 	position:absolute;
-	top:150px;
+	top:190px;
 	left:50px;
  	width:220px;
 	height:150px;
@@ -291,12 +291,12 @@ li{
 }
 .file{
 	position: absolute;
-	top:130px;
+	top:165px;
 	width:95px;
 }
 .a2{
 	position:absolute;
-	top:400px;
+	top:420px;
 	left:50px;
  	width:220px;
 	height:150px;
@@ -312,7 +312,7 @@ li{
 }
 .file2{
 	position: absolute;
-	top:375px;
+	top:395px;
 	width:95px ;
 }
 
