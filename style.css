@@ -192,7 +192,7 @@ h2{
 .p2{
 	background:radial-gradient(white,skyblue);
 	width:250px;
-	height:410px;
+	height:400px;
 	padding:20px;
 	word-break:keep-all;
 	line-height:1.6;
@@ -203,8 +203,8 @@ h2{
 .p4{
 	background:radial-gradient(white,skyblue);
 	width:250px;
-	height:620px;
-	padding:20px;
+	height:580px;
+	padding:25px;
 	word-break:keep-all;
 	line-height: 1.6;
 	border-radius:60px;
@@ -280,7 +280,7 @@ h2{
 	width:150px;
 }
 .mc{
-	width: 300px;
+	width: 200px;
 }
 img{
 	width: 200px;
