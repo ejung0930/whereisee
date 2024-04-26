@@ -167,7 +167,14 @@ h2{
 	line-height:1.5;
 	color:skyblue;
 }
+
 @media screen and (max-width:900px){
+	p{
+		background-color:blueviolet;
+		font-size: 30px;
+		width:200px;
+	}
+
 
 }
 
