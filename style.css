@@ -148,7 +148,7 @@ a:hover{
   position: absolute;
   top:140px;
   width: 300px;
-  height: 230px;
+  height: 210px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -167,7 +167,7 @@ a:hover{
   position: absolute;
   top:450px;
   width: 300px;
-  height: 230px;
+  height: 210px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -276,9 +276,9 @@ li{
 .a1{
 	position:absolute;
 	top:190px;
-	left:50px;
- 	width:220px;
-	height:150px;
+	left: 80px;
+ 	width:190px;
+	height:120px;
 	background:linear-gradient(lightyellow,white) ;	
 	box-shadow: 4px 8px 10px 0px gray;
 	border-radius:10px;
@@ -292,18 +292,19 @@ li{
 .file{
 	position: absolute;
 	top:165px;
-	width:95px;
+	left: 80px;
+	width:80px;
 }
 .a2{
 	position:absolute;
 	top:420px;
-	left:50px;
- 	width:220px;
-	height:150px;
+	left:80px;
+ 	width:190px;
+	height:120px;
 	background:linear-gradient(mistyrose,white) ;	
 	box-shadow: 4px 8px 10px 0px gray;
 	border-radius: 10px;
-	text-align: center;
+	text-align:center;
 	list-style: none;
 	display:flex;
 	justify-content:center;
@@ -313,7 +314,8 @@ li{
 .file2{
 	position: absolute;
 	top:395px;
-	width:95px ;
+	left: 80px;
+	width:80px ;
 }
 
 h2{
