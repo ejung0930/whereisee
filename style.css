@@ -173,22 +173,11 @@ h2{
 
 @media screen and (max-width:900px){
 
-	body,
-	.body1,
-	.body2
-	footer,
-	nav,
-	ul,
-	.e3{
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-
-	}
 	header,
 	.e1{
-		width:500px;
+		display:flex;
+		justify-content:center;
+		text-align: center;
 	}
 	section{
 	border:2px solid lightskyblue;
@@ -251,6 +240,40 @@ li{
 	line-height:2.0
 	letter-spacing:1.6px;
 	word-break: keep-all;
+}
+
+.a1{
+	position:absolute;
+	top:100px;
+	left:200px;
+ 	width:200px;
+	height:100px;
+	background:linear-gradient(rgb(220,250,230),white,lightyellow) ;	
+	box-shadow: 4px 8px 10px 5px gray;
+	border-radius:50px;
+	text-align:center;
+	list-style:none;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.a2{
+	position:absolute;
+	top:300px;
+	left:150px;
+ 	width:300px;
+	height:100px;
+	background:linear-gradient(rgb(220,250,230),white,mistyrose) ;	
+	box-shadow: 4px 8px 10px 5px gray;
+	border-radius: 50px;
+	text-align: center;
+	list-style: none;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	word-break: keep-all;
+	
 }
 
 }
