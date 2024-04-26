@@ -5,6 +5,15 @@ header{
 	border-radius:5px;
 	text-align:center;
 }
+body{
+	background:radial-gradient(yellow 3%,white);
+}
+.body1{
+	background:mintcream;
+}
+.body2{
+	background:radial-gradient(pink 3%,white);
+}
 .e1{
 	background-color:rgb(168,195,243);
 	color:lightyellow;
@@ -87,7 +96,6 @@ a{
 }
 
 article{
-	background-color:snow;
 	display:flex;
 	flex-direction :row;
 	flex-wrap: wrap;
@@ -95,9 +103,7 @@ article{
 	align-items:center;
 
 }
-.e3{
-	background-color:lightyellow;
-}
+
 section{
 	border:2px solid lightskyblue;
 	background-color:white;
@@ -181,50 +187,55 @@ h2{
 .p2{
 	background:radial-gradient(white,skyblue);
 	width:350px;
-	height:250px;
+	height:370px;
 	padding:30px;
 	word-break:keep-all;
 	line-height:1.6;
 	border-radius:60px;
-	font-size: 15px;
+	font-size: 18px;
 }
 .p4{
 	background:radial-gradient(white,skyblue);
 	width:350px;
-	height:350px;
+	height:500px;
 	padding:30px;
 	word-break:keep-all;
 	line-height: 1.6;
 	border-radius:60px;
-	font-size: 15px;
+	font-size:18px;
 }
 .p1{
 	background:radial-gradient(white,mistyrose);
 	width:350px;
-	height:200px;
+	height:300px;
 	padding:25px;
 	word-break:keep-all;
 	line-height:1.7;
 	border-radius:60px;
-	font-size: 15px;
+	font-size: 18px;
 
 }
 
 .p3{
 	background:radial-gradient(white,mistyrose);
 	width:350px;
-	height:250px;
+	height:380px;
 	padding:25px;
 	word-break:keep-all;
 	line-height: 1.7;
 	border-radius:60px;
-	font-size: 15px;
+	font-size: 18px;
 
 }
 li{
-	width:200px;
-	line-height:30.3;
+	width:160px;
+	line-height:2.0
 	letter-spacing:1.6px;
 	word-break: keep-all;
 }
+section{
+	margin:50px 25px;
+	justify-content: center;
+}
+
 }
