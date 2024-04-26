@@ -164,7 +164,7 @@ h2{
 	height:30px;
 }
 .lasttext{
-	font-size: 2vw;
+	font-size: 20px;
 	text-align: center;
 	line-height:1.5;
 	color:skyblue;
@@ -229,8 +229,8 @@ li{
 	letter-spacing:1.6px;
 	word-break: keep-all;
 }
-section{
-	margin:50px 25px;
+article{
+	margin:80px 40px;
 	justify-content: center;
 }
 
