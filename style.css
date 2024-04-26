@@ -5,6 +5,13 @@ header{
 	border-radius:5px;
 	text-align:center;
 }
+.e1{
+	background-color:rgb(168,195,243);
+	color:lightyellow;
+	padding:1px;
+	border-radius:5px;
+	text-align:center;
+}
 body{
 	background:radial-gradient(yellow 3%,white);
 }
@@ -14,13 +21,7 @@ body{
 .body2{
 	background:radial-gradient(pink 3%,white);
 }
-.e1{
-	background-color:rgb(168,195,243);
-	color:lightyellow;
-	padding:1px;
-	border-radius:5px;
-	text-align:center;
-}
+
 .allpage1{
 	background:radial-gradient(rgb(220,250,230),white);
 	color:black;
@@ -171,6 +172,24 @@ h2{
 }
 
 @media screen and (max-width:900px){
+
+	body,
+	.body1,
+	.body2
+	footer,
+	nav,
+	ul,
+	.e3{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+
+	}
+	header,
+	.e1{
+		width:500px;
+	}
 	section{
 	border:2px solid lightskyblue;
 	background-color:white;
@@ -189,6 +208,7 @@ h2{
 	line-height:1.6;
 	border-radius:60px;
 	font-size: 18px;
+	text-align: center;
 }
 .p4{
 	background:radial-gradient(white,skyblue);
@@ -199,6 +219,7 @@ h2{
 	line-height: 1.6;
 	border-radius:60px;
 	font-size:18px;
+	text-align: center;
 }
 .p1{
 	background:radial-gradient(white,mistyrose);
@@ -209,6 +230,7 @@ h2{
 	line-height:1.7;
 	border-radius:60px;
 	font-size: 18px;
+	text-align: center;
 
 }
 
@@ -221,6 +243,7 @@ h2{
 	line-height: 1.7;
 	border-radius:60px;
 	font-size: 18px;
+	text-align: center;
 
 }
 li{
@@ -228,26 +251,6 @@ li{
 	line-height:2.0
 	letter-spacing:1.6px;
 	word-break: keep-all;
-}
-article{
-	margin-right: 20px;
-	margin-left: 20px;
-	justify-content: center;
-}
-.body1,
-.body2,
-body{
-	width: 85%;
-	margin:0 auto;
-}
-article,
-.e3{
-	width:85%;
-	margin:0 auto;
-	min-width:480px;
-}
-.containter{
-	justify-content: center;
 }
 
 }
