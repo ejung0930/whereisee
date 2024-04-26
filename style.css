@@ -182,7 +182,7 @@ h2{
 	section{
 	border:2px solid lightskyblue;
 	background-color:white;
-	margin:50px;
+	margin:60px;
 	padding:20px;
 	border-radius:30px;
 	box-shadow: 4px 4px 10px skyblue;
@@ -190,9 +190,9 @@ h2{
 }
 .p2{
 	background:radial-gradient(white,skyblue);
-	width:300px;
-	height:380px;
-	padding:30px;
+	width:250px;
+	height:460px;
+	padding:20px;
 	word-break:keep-all;
 	line-height:1.6;
 	border-radius:60px;
@@ -201,9 +201,9 @@ h2{
 }
 .p4{
 	background:radial-gradient(white,skyblue);
-	width:300px;
-	height:580px;
-	padding:30px;
+	width:250px;
+	height:740px;
+	padding:20px;
 	word-break:keep-all;
 	line-height: 1.6;
 	border-radius:60px;
@@ -212,9 +212,9 @@ h2{
 }
 .p1{
 	background:radial-gradient(white,mistyrose);
-	width:300px;
-	height:320px;
-	padding:25px;
+	width:250px;
+	height:400px;
+	padding:20px;
 	word-break:keep-all;
 	line-height:1.7;
 	border-radius:60px;
@@ -225,9 +225,9 @@ h2{
 
 .p3{
 	background:radial-gradient(white,mistyrose);
-	width:300px;
-	height:410px;
-	padding:25px;
+	width:250px;
+	height:500px;
+	padding:20px;
 	word-break:keep-all;
 	line-height: 1.7;
 	border-radius:60px;
@@ -275,5 +275,13 @@ li{
 	word-break: keep-all;
 	
 }
-
+h2{
+	width:150px;
+}
+.mc{
+	width: 300px;
+}
+img{
+	width: 200px;
+}
 }
