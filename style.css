@@ -210,17 +210,10 @@ header,
 	text-align: center;
 }
 section{
-border:2px solid lightskyblue;
-background-color:white;
 margin:60px;
-padding:20px;
-border-radius:30px;
-box-shadow: 4px 4px 10px skyblue;
-letter-spacing: 1.3px;
 align-items: center;
 }
 .p2{
-	background:radial-gradient(white,skyblue);
 	width:260px;
 	height:400px;
 	padding:20px;
@@ -231,7 +224,6 @@ align-items: center;
 	text-align: center;
 }
 .p4{
-	background:radial-gradient(white,skyblue);
 	width:250px;
 	height:580px;
 	padding:25px;
@@ -242,7 +234,6 @@ align-items: center;
 	text-align: center;
 }
 .p1{
-	background:radial-gradient(white,mistyrose);
 	width:250px;
 	height:320px;
 	padding:20px;
@@ -251,11 +242,9 @@ align-items: center;
 	border-radius:60px;
 	font-size: 16px;
 	text-align: center;
-
 }
 
 .p3{
-	background:radial-gradient(white,mistyrose);
 	width:250px;
 	height:460px;
 	padding:20px;
@@ -264,13 +253,11 @@ align-items: center;
 	border-radius:60px;
 	font-size: 16px;
 	text-align: center;
-
 }
+
 li{
-	width:160px;
 	line-height:2.0
 	letter-spacing:1.6px;
-	word-break: keep-all;
 }
 
 .a1{
@@ -279,8 +266,6 @@ li{
 	left: 80px;
  	width:190px;
 	height:120px;
-	background:linear-gradient(lightyellow,white) ;	
-	box-shadow: 4px 8px 10px 0px gray;
 	border-radius:10px;
 	text-align:center;
 	list-style:none;
@@ -301,8 +286,6 @@ li{
 	left:80px;
  	width:190px;
 	height:120px;
-	background:linear-gradient(mistyrose,white) ;	
-	box-shadow: 4px 8px 10px 0px gray;
 	border-radius: 10px;
 	text-align:center;
 	list-style: none;
