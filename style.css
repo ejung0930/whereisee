@@ -1,3 +1,7 @@
+ul {
+	padding: 0;
+}
+
 header{
 	background-color:rgb(168,195,243);
 	color:snow;
@@ -17,6 +21,13 @@ body{
 }
 .body1{
 	background:mintcream;
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+
 }
 .body2{
 	background:radial-gradient(pink 3%,white);
@@ -25,6 +36,7 @@ body{
 .allpage1{
 	background:radial-gradient(rgb(220,250,230),white 60%);
 	color:black;
+	width: 100vw;
 	padding:1px;
 	border-radius:5px;
 	text-align:center
@@ -37,6 +49,7 @@ li{
 	width:160px;
 	letter-spacing: 1.3px;
 	word-break: keep-all;
+	list-style: none;
 }
 
 .ul1{
@@ -46,21 +59,34 @@ li{
 	display:flex;
 	flex-direction:row;
 	flex-wrap:wrap;
-	list-style: none;
 	line-height: 2.5;
 	text-underline-offset:5px;
 	border-radius: 50px;
-
 }
 
-
-article{
+article {
 	display:flex;
-	flex-direction :row;
-	flex-wrap: wrap;
 	justify-content:center;
 	align-items:center;
+	flex-direction :row;
+	flex-wrap: wrap;
+}
 
+#a,
+#b,
+#c,
+#d,
+#e,
+#f,
+#g,
+#h,
+#j,
+#i {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	flex-wrap: wrap;
 }
 
 section{
@@ -82,6 +108,7 @@ h2{
 	padding:8px;
 	text-align: center;
 }
+
 .p1{
 	background:radial-gradient(white,mistyrose);
 	width:600px;
@@ -145,7 +172,6 @@ a:hover{
 	background-color:skyblue;
 }
 .a1 {
-  position: absolute;
   top:140px;
   width: 300px;
   height: 210px;
@@ -155,7 +181,7 @@ a:hover{
   padding: 10px;
   background: linear-gradient(lightyellow, white);
   box-shadow: 4px 8px 10px 0px gray;
-  border-radius: 20px;
+  border-radius: 0 20px 20px 20px;
   text-align: center;
   list-style: none;
   transition: box-shadow 0.3s ease;
@@ -164,7 +190,6 @@ a:hover{
   box-shadow: 4px 8px 20px 10px skyblue;
 }
 .a2 {
-  position: absolute;
   top:450px;
   width: 300px;
   height: 210px;
@@ -174,7 +199,7 @@ a:hover{
   padding: 10px;
   background: linear-gradient(mistyrose, white);
   box-shadow: 4px 8px 10px 0px gray;
-  border-radius: 20px;
+  border-radius: 0 20px 20px 20px;
   text-align: center;
   list-style: none;
   transition: box-shadow 0.3s ease;
@@ -183,22 +208,22 @@ a:hover{
   box-shadow: 4px 8px 20px 10px skyblue; 
 }
 .file2{
-	position: absolute;
-	top: 425px;
-	left:50px ;
 	width:130px;
 	height:40px;
-	border-radius: 10px;
+	border-radius: 10px 10px 0 0;
 	background-color:mistyrose;
 }
+
 .file{
-	position: absolute;
-	top: 118px;
-	left:50px ;
 	width:130px;
 	height:40px;
-	border-radius: 10px;
+	border-radius:10px 10px 0 0;
 	background-color:lightyellow;
+}
+
+.folder {
+	background-color:mintcream;
+	margin:20px;
 }
 
 @media screen and (max-width:900px){
@@ -207,6 +232,15 @@ header,
 .e1{
 	display:flex;
 	justify-content:center;
+	text-align: center;
+}
+.body1{
+	background:mintcream;
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
 	text-align: center;
 }
 section{
@@ -261,44 +295,21 @@ li{
 }
 
 .a1{
-	position:absolute;
-	top:190px;
-	left: 80px;
  	width:190px;
 	height:120px;
-	border-radius:10px;
-	text-align:center;
-	list-style:none;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	
 }
 .file{
-	position: absolute;
-	top:165px;
-	left: 80px;
 	width:80px;
+	height:30px;
 }
 .a2{
-	position:absolute;
-	top:420px;
-	left:80px;
  	width:190px;
 	height:120px;
-	border-radius: 10px;
-	text-align:center;
-	list-style: none;
-	display:flex;
-	justify-content:center;
-	align-items:center;
 	word-break: keep-all;
 }
 .file2{
-	position: absolute;
-	top:395px;
-	left: 80px;
-	width:80px ;
+	width:80px;
+	height:30px
 }
 
 h2{
